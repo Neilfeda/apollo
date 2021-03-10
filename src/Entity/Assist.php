@@ -2,13 +2,13 @@
 
 namespace App\Entity;
 
-use App\Repository\EntityRepository;
+use App\Repository\AssistRepository;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * @ORM\Entity(repositoryClass=EntityRepository::class)
+ * @ORM\Entity(repositoryClass=AssistRepository::class)
  */
-class Entity
+class Assist
 {
     /**
      * @ORM\Id
